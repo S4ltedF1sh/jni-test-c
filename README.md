@@ -14,4 +14,5 @@ Compile command (for window only):
   3a. To make Hello.dll lib, use this command `x86_64-w64-mingw32-gcc -I"%JAVA_HOME%\include" -I"%JAVA_HOME%\include\win32" -shared -o hello.dll HelloJNI.c`
   3b. To make Sort.dll, move to test folder and use this command `x86_64-w64-mingw32-gcc -I"%JAVA_HOME%\include" -I"%JAVA_HOME%\include\win32" -shared -o Sort.dll Sort.c bbsort.c`
 4. Run the java program.
+
 *For more information: https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaNativeInterface.html*
