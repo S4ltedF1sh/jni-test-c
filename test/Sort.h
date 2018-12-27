@@ -10,7 +10,7 @@ extern "C" {
 /*
  * Class:     Sort
  * Method:    sort
- * Signature: ([II)[I
+ * Signature: ([I)[I
  */
 JNIEXPORT void JNICALL Java_Sort_sort
   (JNIEnv *, jclass, jintArray);
